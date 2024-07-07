@@ -1,4 +1,4 @@
-import { changeTheme } from './src/assets/scripts/modules/inputs.js';
+import { changeTheme } from './src/assets/scripts/modules/themes.js';
 import {
    addNumberButtonListeners,
    addOperatorButtonListeners,
