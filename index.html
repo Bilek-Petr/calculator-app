@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="/assets/css/style.css" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+         rel="stylesheet"
+      />
+      <title>Vite App</title>
+   </head>
+   <body>
+      <main>
+         <section class="calculator">
+            <!-- START HEADER -->
+            <div class="header">
+               <div class="header__title">calc</div>
+               <div class="header__theme-box">
+                  <p class="theme-box__title">theme</p>
+                  <div
+                     class="theme-box__wrapper"
+                     role="radiogroup"
+                     aria-labelledby="theme-label"
+                  >
+                     <div class="theme-box__labels">
+                        <label for="theme1"><span class="sr-only">theme</span>1</label>
+                        <label for="theme2"><span class="sr-only">theme</span>2</label>
+                        <label for="theme3"><span class="sr-only">theme</span>3</label>
+                     </div>
+                     <div class="theme-box__inputs">
+                        <input type="radio" name="theme" id="theme1" />
+                        <input type="radio" name="theme" id="theme2" />
+                        <input type="radio" name="theme" id="theme3" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- END HEADER -->
+            <!-- START USER INPUT -->
+
+            <div class="user-input">
+               <div class="user-input__previous" aria-live="polite"></div>
+               <div class="user-input__current" aria-live="polite"></div>
+            </div>
+            <!-- END USER INPUT -->
+            <!-- START CALC BUTTONS -->
+            <section class="keyboard">
+               <div class="keyboard__buttons">
+                  <button class="btn btn--num" type="button" aria-label="7">7</button>
+                  <button class="btn btn--num" type="button" aria-label="8">8</button>
+                  <button class="btn btn--num" type="button" aria-label="9">9</button>
+                  <button
+                     class="btn btn--delete btn--corner"
+                     type="button"
+                     aria-label="Delete"
+                  >
+                     del
+                  </button>
+
+                  <button class="btn btn--num" type="button" aria-label="4">4</button>
+                  <button class="btn btn--num" type="button" aria-label="5">5</button>
+                  <button class="btn btn--num" type="button" aria-label="6">6</button>
+                  <button class="btn btn--operator" type="button" aria-label="Add">
+                     +
+                  </button>
+
+                  <button class="btn btn--num" type="button" aria-label="1">1</button>
+                  <button class="btn btn--num" type="button" aria-label="2">2</button>
+                  <button class="btn btn--num" type="button" aria-label="3">3</button>
+                  <button class="btn btn--operator" type="button" aria-label="Subtract">
+                     -
+                  </button>
+                  <!-- prettier-ignore -->
+                  <button class="btn btn--num" type="button" aria-label="Decimal">.</button>
+                  <button class="btn btn--num" type="button" aria-label="0">0</button>
+                  <button class="btn btn--operator" type="button" aria-label="Divide">
+                     /
+                  </button>
+                  <button class="btn btn--operator" type="button" aria-label="Multiply">
+                     x
+                  </button>
+                  <button
+                     class="btn btn--reset btn--corner"
+                     type="button"
+                     aria-label="Reset"
+                  >
+                     reset
+                  </button>
+                  <button class="btn btn--result" type="button" aria-label="Equals">
+                     =
+                  </button>
+               </div>
+            </section>
+            <!-- END CALC BUTTONS -->
+
+            <!-- END CALC BUTTONS -->
+         </section>
+      </main>
+
+      <script type="module" src="/src/index.js"></script>
+   </body>
+</html>

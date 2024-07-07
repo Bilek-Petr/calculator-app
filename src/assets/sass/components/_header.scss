@@ -1,0 +1,33 @@
+.header {
+   color: var(--text-primary);
+
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   height: 4rem;
+}
+
+.header__title {
+   font-size: 2rem;
+   margin-bottom: -0.575rem;
+}
+
+.theme-box__title {
+   text-transform: uppercase;
+   font-size: 0.8rem;
+   letter-spacing: 1px;
+   align-self: flex-end;
+}
+
+.header__theme-box {
+   @extend %center-flex;
+   gap: 1.25em;
+}
+
+.theme-box__labels {
+   margin: 0 auto;
+   width: 80%;
+   font-size: 0.8rem;
+   display: flex;
+   gap: 1.23rem;
+}

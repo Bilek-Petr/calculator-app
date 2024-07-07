@@ -1,0 +1,16 @@
+//BODY CONTAINER
+body {
+   height: 100svh;
+
+   @extend %center-flex;
+
+   font-family: 'League Spartan', sans-serif;
+   font-weight: 700;
+   background-color: var(--bg-main);
+}
+
+//CALC CONTAINER
+.calculator {
+   max-width: min(90%, 700px);
+   margin: 0 auto;
+}

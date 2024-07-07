@@ -1,0 +1,7 @@
+@mixin theme($theme-name) {
+   :root {
+      @each $property, $value in map-get($themes, $theme-name) {
+         #{$property}: #{$value};
+      }
+   }
+}

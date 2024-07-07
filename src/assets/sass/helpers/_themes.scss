@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+@mixin apply-themes() {
+   @each $theme, $values in $themes {
+      body.#{$theme} {
+         @each $property, $value in $values {
+            --#{$property}: #{$value};
+         }
+      }
+   }
+}

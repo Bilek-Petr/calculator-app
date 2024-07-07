@@ -1,0 +1,27 @@
+.theme-box__inputs {
+   display: flex;
+   gap: 0.5rem;
+   background-color: var(--bg-toggle-keypad);
+   padding: 0.7rem 0.25rem;
+   border-radius: 10px;
+}
+
+input[type='radio'] {
+   width: 1rem;
+   height: 1rem;
+   border-radius: 50%;
+   appearance: none;
+   position: relative;
+
+   &:checked {
+      background-color: var(--key-bg-2);
+   }
+
+   &:disabled {
+      background-color: transparent;
+   }
+
+   &:hover {
+      cursor: pointer;
+   }
+}
