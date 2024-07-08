@@ -4,7 +4,14 @@
 This project allows users to perform mathematical operations while offering responsive design adjustments and customizable color themes.
 
 ## Used
-- SCSS, Javascript. For Math Operations I've used OOP.
+<p align="left">
+  <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"/>
+  <img src="https://img.icons8.com/color/48/000000/sass.png" alt="Sass"/>
+  <img src="https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png" alt="Sass"/>
+</p>
+
+- For Math Operations I've used OOP approach.
+
 
 ## Features
 
@@ -16,5 +23,5 @@ This project allows users to perform mathematical operations while offering resp
 
 ## Demo
 
-You can view a live demo of the Responsive Calculator [here](https://your-demo-url.com).
+You can view a live demo of the Responsive Calculator [here](https://bilek-petr.github.io/calculator-app/).
 
