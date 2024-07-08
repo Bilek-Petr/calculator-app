@@ -1,8 +1,8 @@
-import { changeTheme } from './src/assets/scripts/modules/themes.js';
+import { changeTheme } from './modules/themes.js';
 import {
    addNumberButtonListeners,
    addOperatorButtonListeners,
-} from './src/assets/scripts/modules/inputs.js';
+} from './modules/inputs.js';
 
 document.addEventListener('DOMContentLoaded', (e) => {
    changeTheme();

@@ -7,13 +7,11 @@
       "dev": "vite",
       "build": "vite build",
       "preview": "vite preview",
-      "sass": "node-sass src/assets/sass/main.scss -o public/assets/css"
+      "sass": "sass src/assets/sass/main.scss public/assets/css/style.css"
    },
    "devDependencies": {
       "node-sass": "^9.0.0",
+      "sass": "^1.77.6",
       "vite": "^5.2.0"
-   },
-   "dependencies": {
-      "sass": "^1.77.2"
    }
 }
