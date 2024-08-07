@@ -3,6 +3,10 @@
 
 This project allows users to perform mathematical operations while offering responsive design adjustments and customizable color themes.
 
+## Demo
+
+You can view a live demo of the Responsive Calculator [here](https://bilek-petr.github.io/calculator-app/).
+
 ## Used
 <p align="left">
   <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"/>
@@ -21,7 +25,5 @@ This project allows users to perform mathematical operations while offering resp
 
 - **Color Theme Customization**: Customize the color theme of the calculator based on personal preference.
 
-## Demo
 
-You can view a live demo of the Responsive Calculator [here](https://bilek-petr.github.io/calculator-app/).
 
